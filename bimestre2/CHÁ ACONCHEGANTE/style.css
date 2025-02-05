@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B5A2B;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#missao {
+    background: url("resources/img-mission-background.webp") center/cover;
+    color: white;
+    padding: 60px 20px;
+}
+
+.missao-container {
+    background: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#nossos-chas {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.chas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cha {
+    width: 200px;
+    text-align: center;
+}
+
+.cha img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#locais {
+    background-color: #eee;
+    padding: 40px 20px;
+}
+
+.locais-container img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #8B5A2B;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
